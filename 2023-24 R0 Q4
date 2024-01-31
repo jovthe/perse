@@ -1,0 +1,12 @@
+x = input()
+y = input()
+z = input()
+
+if x != y and x!= z:
+  print('BOTH MISMATCH')
+elif x != y:
+  print('ENTRY 2 MISMATCH')
+elif x != z:
+  print('ENTRY 3 MISMATCH')
+else:
+  print('OK')
